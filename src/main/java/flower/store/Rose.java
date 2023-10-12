@@ -8,7 +8,7 @@ import lombok.Setter;
 class Rose extends Flower {
     private double numberOfThorns;
 
-    public Rose(double sepalLength, FlowerColor color,
+    Rose(double sepalLength, FlowerColor color,
                 double price, FlowerType flowerType, double numberOfThorns) {
         super(sepalLength, price, color, flowerType);
         this.numberOfThorns = numberOfThorns;
