@@ -17,4 +17,12 @@ public class FlowerBucket {
         flowerPacks.add(fp);
         price += fp.getPrice();
     }
+    @Override
+    public String toString() {
+        String res = "";
+        for (FlowerPack fp : flowerPacks) {
+            res = res.concat(fp.toString());
+        }
+        return res;
+    }
 }
