@@ -12,4 +12,7 @@ public class FlowerBucket {
     public void price(FlowerPack flowerPack) {
         price += flowerPack.getPrice();
     }
+
+    public void add(FlowerPack flowerPack) {
+    }
 }

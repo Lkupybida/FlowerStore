@@ -10,8 +10,12 @@ class Rose extends Flower {
 
     Rose(double sepalLength, FlowerColor color,
                 double price, FlowerType flowerType, double numberOfThorns) {
-        super(sepalLength, price, color, flowerType);
+        super();
         this.numberOfThorns = numberOfThorns;
+    }
+
+    public Rose() {
+        super();
     }
 
     @Override

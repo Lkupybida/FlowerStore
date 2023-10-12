@@ -16,8 +16,7 @@ public class Flower {
     @Getter
     private FlowerType flowerType;
 
-    public Flower(double sepalLength, double price,
-                  FlowerColor color, FlowerType flowerType) {
+    public Flower() {
     }
 
     public void setColor(FlowerColor color) {
