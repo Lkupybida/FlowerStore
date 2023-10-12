@@ -14,7 +14,7 @@ class Rose extends Flower {
         this.numberOfThorns = numberOfThorns;
     }
 
-    public Rose() {
+    Rose() {
         super();
     }
 
