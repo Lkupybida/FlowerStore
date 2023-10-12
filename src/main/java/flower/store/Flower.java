@@ -1,6 +1,8 @@
 package flower.store;
 
-import lombok.*;
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
 
 @Setter
 @ToString
@@ -14,7 +16,8 @@ public class Flower {
     @Getter
     private FlowerType flowerType;
 
-    public Flower(double sepalLength, double price, FlowerColor color, FlowerType flowerType) {
+    public Flower(double sepalLength, double price,
+                  FlowerColor color, FlowerType flowerType) {
     }
 
     public void setColor(FlowerColor color) {
